@@ -15,6 +15,9 @@
 		8BD7D91C2144D20F009B2608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD7D91A2144D20F009B2608 /* LaunchScreen.storyboard */; };
 		8BD7D9272144D20F009B2608 /* TabbedExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7D9262144D20F009B2608 /* TabbedExampleTests.swift */; };
 		8BD7D9322144D20F009B2608 /* TabbedExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7D9312144D20F009B2608 /* TabbedExampleUITests.swift */; };
+		8BD7D9402147120D009B2608 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7D93F2147120D009B2608 /* MyAnnotation.swift */; };
+		8BD7D94221472000009B2608 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7D94121472000009B2608 /* SecondVC.swift */; };
+		8BD7D94421472451009B2608 /* CellVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7D94321472451009B2608 /* CellVC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8BD7D92D2144D20F009B2608 /* TabbedExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD7D9312144D20F009B2608 /* TabbedExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedExampleUITests.swift; sourceTree = "<group>"; };
 		8BD7D9332144D20F009B2608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD7D93F2147120D009B2608 /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		8BD7D94121472000009B2608 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		8BD7D94321472451009B2608 /* CellVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellVC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				8BD7D91A2144D20F009B2608 /* LaunchScreen.storyboard */,
 				8BD7D91D2144D20F009B2608 /* Info.plist */,
 				8BD7D9152144D20E009B2608 /* TabbedExample.xcdatamodeld */,
+				8BD7D93F2147120D009B2608 /* MyAnnotation.swift */,
+				8BD7D94121472000009B2608 /* SecondVC.swift */,
+				8BD7D94321472451009B2608 /* CellVC2.swift */,
 			);
 			path = TabbedExample;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD7D9112144D20E009B2608 /* ViewController.swift in Sources */,
+				8BD7D94421472451009B2608 /* CellVC2.swift in Sources */,
+				8BD7D94221472000009B2608 /* SecondVC.swift in Sources */,
 				8BD7D90F2144D20E009B2608 /* AppDelegate.swift in Sources */,
+				8BD7D9402147120D009B2608 /* MyAnnotation.swift in Sources */,
 				8BD7D9172144D20E009B2608 /* TabbedExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZABLQ52QJ;
 				INFOPLIST_FILE = TabbedExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZABLQ52QJ;
 				INFOPLIST_FILE = TabbedExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
